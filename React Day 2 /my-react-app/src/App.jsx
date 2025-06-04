@@ -1,12 +1,13 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Expenses from "./Components/Expenses/Expenses";
 import ExpenseItem from "./Components/Expenses/ExpenseItem";
 import NewExpense from "./Components/NewExpense/NewExpense.jsx";
-function App() {
-  const expenses = [
+
+
+const DUMMY_EXPENSE = [
     {
       id: "e1",
       title: "TV",
@@ -32,10 +33,21 @@ function App() {
       date: new Date(2020, 9, 10),
     },
   ];
+function App() {
+   const [expenses, setExpenses] = useState(DUMMY_EXPENSE)
+
+  const addExpenseHandler = (expense) => {
+    // console.log("in App.jsx")
+    // console.log(expense)
+
+    setExpenses((prevExpense) => {
+      return [expense, ...prevExpense];
+    });
+  };
 
   return (
     <div>
-      <NewExpense />
+      <NewExpense onAddExpense = {addExpenseHandler}/>
       {/* <ExpenseItem
         title={expenses[0].title}
         amount={expenses[0].amount}
