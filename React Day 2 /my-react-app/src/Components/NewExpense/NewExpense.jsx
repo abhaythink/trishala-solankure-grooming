@@ -2,7 +2,6 @@ import React from 'react'
 import './NewExpense.css'
 import ExpenseForm from './ExpenseForm.jsx'
 
-
 const NewExpense = (props) => {
 
     const saveExpenseDataHandler = (enteredExpenseData) => {

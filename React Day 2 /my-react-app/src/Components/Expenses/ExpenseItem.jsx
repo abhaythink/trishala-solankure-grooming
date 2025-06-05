@@ -3,6 +3,7 @@ import "./ExpenseItem.css";
 import Card from "../UI/Card.jsx";
 import ExpenseDate from "./ExpenseDate.jsx";
 
+
 function ExpenseItem(props) {
   // destructuring an object
   // function ExpenseItem({date, title, amount}){
