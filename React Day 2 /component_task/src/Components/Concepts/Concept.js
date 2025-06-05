@@ -8,5 +8,4 @@ function Concept(props) {
   );
 }
 
-
 export default Concept;

@@ -12,7 +12,7 @@ function ExpenseItem(props) {
   // const expenseAmount = 294.67
 
   // return <h2>ExpDateense item!</h2>
-
+  
   //   return (
   //     <div className='expense-item'>
   //       <div>{props.date.toISOString()}</div>

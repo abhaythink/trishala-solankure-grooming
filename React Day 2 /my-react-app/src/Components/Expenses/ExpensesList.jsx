@@ -2,6 +2,7 @@ import React from "react";
 import "./ExpensesList.css";
 import ExpenseItem from "./ExpenseItem";
 
+
 const ExpensesList = (props) => {
   let expenseContent = <p>No Expense Found</p>;
 
