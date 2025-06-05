@@ -1,0 +1,6 @@
+# Ignore environment and config files
+*.env
+*.config.js
+*.config.json
+vite.config.js
+webpack.config.js
