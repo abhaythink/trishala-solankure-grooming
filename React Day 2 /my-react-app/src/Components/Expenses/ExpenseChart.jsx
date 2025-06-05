@@ -21,7 +21,6 @@ const ExpenseChart = (props) => {
     // starting at 0 ==> Jan = 0
     charDataPoints[expenseMonth].value += expense.amount; 
   }
-
   return (
   <Chart dataPoints = {charDataPoints} />
   )

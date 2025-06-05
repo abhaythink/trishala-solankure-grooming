@@ -7,5 +7,4 @@ function Concept(props) {
   </li>
   );
 }
-
 export default Concept;

@@ -5,7 +5,6 @@ import stateImage from "./assets/images/state.png";
 import eventsImage from "./assets/images/events.png";
 import Concept from "./Components/Concepts/Concept"; 
 
-
 const concepts = [
   {
     title: "Components",

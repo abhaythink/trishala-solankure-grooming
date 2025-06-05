@@ -6,7 +6,6 @@ import Expenses from "./Components/Expenses/Expenses";
 import ExpenseItem from "./Components/Expenses/ExpenseItem";
 import NewExpense from "./Components/NewExpense/NewExpense.jsx";
 
-
 const DUMMY_EXPENSE = [
     {
       id: "e1",
