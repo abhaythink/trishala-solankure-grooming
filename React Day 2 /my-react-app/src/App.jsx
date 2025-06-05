@@ -13,6 +13,7 @@ const DUMMY_EXPENSE = [
       amount: 100.65,
       date: new Date(2020, 7, 14),
     },
+  
     {
       id: "e2",
       title: "Groceries",
